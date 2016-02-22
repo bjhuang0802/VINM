@@ -1,0 +1,4 @@
+rm ./vdos.exe
+gcc -o vdos.exe -O dos.c -lm
+./vdos.exe >dos.dat
+xmgrace dos.dat&

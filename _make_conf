@@ -1,0 +1,2 @@
+ cat md1.gro |cut -c 22-45 |head -12002 >>conf.dat
+ tail -n 1 md1.gro >>conf.dat

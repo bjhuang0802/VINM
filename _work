@@ -1,0 +1,4 @@
+rm ./INM_RF.exe
+make
+nohup time ./INM_RF.exe <in1 >time_5_1&
+cat egvlist2.dat
